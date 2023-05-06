@@ -1,0 +1,19 @@
+export const List =({id, email, username, fullname, department, position,createdate,})=>{
+    return(
+        <tr>
+            <td>{id}</td>
+            <td>{email}</td>
+            <td>{username}</td>
+            <td>{fullname}</td>
+            <td>{department}</td>
+            <td>{position}</td>
+            <td>{createdate}</td>
+            <td>
+                <button>edit</button>
+            </td>
+            <td>
+                <button>delete</button>
+            </td>
+        </tr>       
+    )
+}
